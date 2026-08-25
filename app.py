@@ -1,6 +1,6 @@
 releves = [
     {"ville": "Paris", "temperature": 21},
-    {"ville": "Lyon", "temperature": 25},
+    {"ville": "Lyon", "temperature": 26},
 ]
 def moyenne():
     return sum(r["temperature"] for r in releves) / len(releves)
